@@ -159,7 +159,7 @@ public class MainActivity extends Activity {
 	}
 
 	public String addressToContact(String address) {
-		String name = "";
+		String name = address;
 		Uri uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI,
 				Uri.encode(address));
 		Cursor c = getContentResolver().query(uri,
@@ -167,7 +167,11 @@ public class MainActivity extends Activity {
 		c.moveToFirst();
 		if (c.getCount() > 0) {
 			try {
-				name = c.getString(c.getColumnIndex(PhoneLookup.DISPLAY_NAME));
+				if (!(c.getString(c.getColumnIndex(PhoneLookup.DISPLAY_NAME))
+						.equals(""))) {
+					name = c.getString(c
+							.getColumnIndex(PhoneLookup.DISPLAY_NAME));
+				}
 			} catch (SQLiteException e) {
 			}
 			Log.d("Name", name);
