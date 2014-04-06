@@ -16,11 +16,14 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.Contacts;
 import android.provider.ContactsContract;
+import android.provider.ContactsContract.CommonDataKinds.Phone;
+import android.provider.ContactsContract.PhoneLookup;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+import android.database.sqlite.SQLiteException;
 import android.graphics.Color;
 import android.util.Log;
 import android.view.Menu;
@@ -72,7 +75,7 @@ public class MainActivity extends Activity {
 		setupRenderer();
 		chartview = ChartFactory.getPieChartView(this, series, defaultRenderer);
 		layout.addView(chartview);
-
+		addressToContact("4165287548");
 		view.setAdapter(a);
 		chartview.repaint();
 
@@ -131,6 +134,7 @@ public class MainActivity extends Activity {
 			Log.d("count", count[i]);
 			Log.d("thread", thread_id[i]);
 			String a = contactAddress(thread_id[i]);
+			a = addressToContact(a);
 			Log.d("", a);
 			conve[i] = new Conversations(a, Integer.parseInt(count[i]));
 			c.moveToNext();
@@ -149,4 +153,21 @@ public class MainActivity extends Activity {
 		return address;
 	}
 
+	public String addressToContact(String address) {
+		String name = "";
+		Uri uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI,
+				Uri.encode(address));
+		Cursor c = getContentResolver().query(uri,
+				new String[] { PhoneLookup.DISPLAY_NAME }, null, null, null);
+		c.moveToFirst();
+		if (c.getCount() > 0) {
+			try {
+				name = c.getString(c.getColumnIndex(PhoneLookup.DISPLAY_NAME));
+			} catch (SQLiteException e) {
+			}
+			Log.d("Name", name);
+		}
+		c.close();
+		return name;
+	}
 }
