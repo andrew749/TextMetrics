@@ -31,6 +31,9 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
+import com.google.analytics.tracking.android.EasyTracker;
+import com.google.android.gms.ads.*;
+
 public class MainActivity extends Activity {
 	ListView view;
 	LinearLayout layout;
@@ -78,7 +81,9 @@ public class MainActivity extends Activity {
 		addressToContact("4165287548");
 		view.setAdapter(a);
 		chartview.repaint();
-
+		AdView layout = (AdView) this.findViewById(R.id.adView);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		layout.loadAd(adRequest);
 	}
 
 	@Override
@@ -169,5 +174,17 @@ public class MainActivity extends Activity {
 		}
 		c.close();
 		return name;
+	}
+
+	@Override
+	public void onStart() {
+		super.onStart();
+		EasyTracker.getInstance(this).activityStart(this); // Add this method.
+	}
+
+	@Override
+	public void onStop() {
+		super.onStop();
+		EasyTracker.getInstance(this).activityStop(this); // Add this method.
 	}
 }
