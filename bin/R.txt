@@ -61,8 +61,8 @@ int drawable ic_plusone_small_off_client 0x7f02001a
 int drawable ic_plusone_standard_off_client 0x7f02001b
 int drawable ic_plusone_tall_off_client 0x7f02001c
 int drawable logotextmetrics 0x7f02001d
+int id Amount 0x7f05000a
 int id Name 0x7f050009
-int id Percentage 0x7f05000a
 int id action_settings 0x7f05000b
 int id adView 0x7f050008
 int id chart 0x7f050006

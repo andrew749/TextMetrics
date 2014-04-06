@@ -47,7 +47,8 @@ public class MainActivity extends Activity {
 	CategorySeries series = new CategorySeries("Contacts");
 	ProgressDialog progDailog;
 
-	ArrayAdapter a;
+	// ArrayAdapter a;
+	LAdapter a;
 	Conversations[] conve;
 
 	@Override
@@ -63,8 +64,9 @@ public class MainActivity extends Activity {
 		for (int i = 0; i < conve.length; i++) {
 			series.add(conve[i].address, conve[i].messages);
 		}
-		a = new ArrayAdapter<Conversations>(this,
-				android.R.layout.simple_list_item_1, conve);
+		// a = new ArrayAdapter<Conversations>(this,
+		// android.R.layout.simple_list_item_1, conve);
+		a = new LAdapter(this, conve);
 		Random rn = new Random();
 		for (int i = 0; i < conve.length; i++) {
 			SimpleSeriesRenderer seriesRenderer = new SimpleSeriesRenderer();
@@ -78,7 +80,6 @@ public class MainActivity extends Activity {
 		setupRenderer();
 		chartview = ChartFactory.getPieChartView(this, series, defaultRenderer);
 		layout.addView(chartview);
-		addressToContact("4165287548");
 		view.setAdapter(a);
 		chartview.repaint();
 		AdView layout = (AdView) this.findViewById(R.id.adView);
@@ -144,6 +145,7 @@ public class MainActivity extends Activity {
 			conve[i] = new Conversations(a, Integer.parseInt(count[i]));
 			c.moveToNext();
 		}
+		c.close();
 	}
 
 	public String contactAddress(String threadid) {
@@ -155,6 +157,7 @@ public class MainActivity extends Activity {
 			address = c.getString(c.getColumnIndexOrThrow("address"));
 			Log.d("address=", address);
 		}
+		c.close();
 		return address;
 	}
 

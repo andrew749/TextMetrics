@@ -230,8 +230,8 @@ containing a value of this type.
         public static final int logotextmetrics=0x7f02001d;
     }
     public static final class id {
+        public static final int Amount=0x7f05000a;
         public static final int Name=0x7f050009;
-        public static final int Percentage=0x7f05000a;
         public static final int action_settings=0x7f05000b;
         public static final int adView=0x7f050008;
         public static final int chart=0x7f050006;
