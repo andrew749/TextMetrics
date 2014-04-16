@@ -30,19 +30,16 @@ public class LAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        // TODO Auto-generated method stub
         return conversations.length;
     }
 
     @Override
     public Object getItem(int arg0) {
-        // TODO Auto-generated method stub
         return arg0;
     }
 
     @Override
     public long getItemId(int arg0) {
-        // TODO Auto-generated method stub
         return arg0;
     }
 }
