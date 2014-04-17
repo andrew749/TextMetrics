@@ -1,7 +1,6 @@
 package com.andrew749.textmetrics;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteException;
 import android.graphics.Color;
@@ -26,18 +25,17 @@ import org.achartengine.renderer.DefaultRenderer;
 import org.achartengine.renderer.SimpleSeriesRenderer;
 
 import java.util.Random;
-import java.util.concurrent.ExecutionException;
 
 /**
  * Created by andrew on 11/04/14.
  */
 public class ConversationsFragment extends Fragment {
-   Data results;
     public DefaultRenderer defaultRenderer = new DefaultRenderer();
     public GraphicalView chartview;
     // colors
     public int[] color = {Color.GREEN, Color.RED, Color.BLACK, Color.BLUE,
             Color.RED, Color.BLACK, Color.YELLOW};
+    Data results;
     ListView lview;
     LinearLayout layout;
     // ArrayAdapter a;
@@ -45,17 +43,13 @@ public class ConversationsFragment extends Fragment {
     Conversations[] conve;
     Activity activity;
     CategorySeries series = new CategorySeries("Contacts");
+
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        this.activity=activity;
+        this.activity = activity;
 
     }
-    // calculate the percent that a contact contacts
-    public double calculatePercent(int total, int number) {
-        return (double) number / (double) total;
-    }
-
 
 
     public void setupRenderer() {
@@ -132,7 +126,7 @@ public class ConversationsFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.activity_main,container,false);
+        View view = inflater.inflate(R.layout.activity_main, container, false);
         lview = (ListView) view.findViewById(R.id.listView1);
         layout = (LinearLayout) view.findViewById(R.id.chart);
 

@@ -4,5 +4,11 @@
     <string name="app_name">TextMetrics</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="drawer1">Conversations</string>
+    <string name="drawer2">Messages Sent</string>
+    <string name="drawer3">Messages Received</string>
+    <string name="drawer4">Twitter</string>
+    <string name="loadingmessage">Loading Message Data</string>
+    <string name="charttitle">Message Breakdown</string>
 
 </resources>

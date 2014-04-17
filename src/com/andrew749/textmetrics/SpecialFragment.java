@@ -1,14 +1,9 @@
 package com.andrew749.textmetrics;
 
 import android.app.Activity;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteException;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,39 +20,40 @@ import org.achartengine.renderer.DefaultRenderer;
 import org.achartengine.renderer.SimpleSeriesRenderer;
 
 import java.util.Random;
-import java.util.concurrent.ExecutionException;
 
 /**
  * Created by andrew on 16/04/14.
  */
 public class SpecialFragment extends Fragment {
-    Data results;
     public DefaultRenderer defaultRenderer = new DefaultRenderer();
     public GraphicalView chartview;
     // colors
     public int[] color = {Color.GREEN, Color.RED, Color.BLACK, Color.BLUE,
             Color.RED, Color.BLACK, Color.YELLOW};
+    Data results;
     ListView lview;
     LinearLayout layout;
-   statsadapter a;
+    statsadapter a;
     Activity activity;
     CategorySeries series = new CategorySeries("Contacts");
     MainActivity.SortingTypes types;
+
+    public SpecialFragment(Data data, MainActivity.SortingTypes type) {
+        results = data;
+        types = type;
+    }
+
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        this.activity=activity;
+        this.activity = activity;
 
 
-    }
-    public SpecialFragment(Data data, MainActivity.SortingTypes type){
-        results=data;
-        types=type;
     }
 
     public void setupRenderer() {
         defaultRenderer.setLegendTextSize(30);
-        defaultRenderer.setChartTitle("Message Breakdown");
+        defaultRenderer.setChartTitle(getString(R.string.charttitle));
         defaultRenderer.setLabelsTextSize(30f);
         defaultRenderer.setChartTitleTextSize(20);
         defaultRenderer.setLabelsColor(Color.BLACK);
@@ -66,12 +62,9 @@ public class SpecialFragment extends Fragment {
     }
 
 
-
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.activity_main,container,false);
+        View view = inflater.inflate(R.layout.activity_main, container, false);
         lview = (ListView) view.findViewById(R.id.listView1);
         layout = (LinearLayout) view.findViewById(R.id.chart);
 
@@ -79,8 +72,12 @@ public class SpecialFragment extends Fragment {
 
         for (int i = 0; i < results.contacts.size(); i++) {
             switch (types) {
-                case Sent:series.add(results.getContact(i).name, results.getContact(i).numberOfMessagesSent);break;
-                case Recieved:series.add(results.getContact(i).name, results.getContact(i).numberOfMessagesRecieved);break;
+                case Sent:
+                    series.add(results.getContact(i).name, results.getContact(i).numberOfMessagesSent);
+                    break;
+                case Recieved:
+                    series.add(results.getContact(i).name, results.getContact(i).numberOfMessagesRecieved);
+                    break;
             }
         }
 
