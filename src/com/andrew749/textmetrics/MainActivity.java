@@ -23,7 +23,7 @@ import com.google.analytics.tracking.android.EasyTracker;
 
 public class MainActivity extends FragmentActivity {
     public Data information;
-    String[] optionalmetrics = {getString(R.string.drawer1), getString(R.string.drawer2), getString(R.string.drawer3), getString(R.string.drawer4)};
+    String[] optionalmetrics;
     ProgressDialog progress;
     boolean debug = false;
     private DrawerLayout drawerlauout;
@@ -32,6 +32,7 @@ public class MainActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        optionalmetrics= new String[]{getString(R.string.drawer1), getString(R.string.drawer2), getString(R.string.drawer3), getString(R.string.drawer4)};
         setContentView(R.layout.layoutnew);
         drawerlauout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerlist = (ListView) findViewById(R.id.left_drawer);
@@ -51,7 +52,7 @@ public class MainActivity extends FragmentActivity {
     @Override
     public void onStart() {
         super.onStart();
-        EasyTracker.getInstance().activityStart(this); // Add this method.
+//        EasyTracker.getInstance().activityStart(this); // Add this method.
     }
 
     @Override

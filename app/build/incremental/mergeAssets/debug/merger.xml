@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/andrew/Dropbox/workspace/TextMetrics/app/src/main/assets" />
+        <source path="C:\Users\Andrew749\Dropbox\workspace\TextMetrics\app\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/andrew/Dropbox/workspace/TextMetrics/app/src/debug/assets" />
+        <source path="C:\Users\Andrew749\Dropbox\workspace\TextMetrics\app\src\debug\assets" />
     </dataSet>
 
 </merger>
