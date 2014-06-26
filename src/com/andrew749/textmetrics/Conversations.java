@@ -1,5 +1,8 @@
 package com.andrew749.textmetrics;
 
+/**
+ * deprecated
+ */
 public class Conversations {
     public String address = "";
     public int messages = 0;
@@ -11,7 +14,6 @@ public class Conversations {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return address;
     }
 }

@@ -65,6 +65,9 @@ public class statsadapter extends BaseAdapter {
             case Recieved:
                 amount.setText("" + data.getContact(i).numberOfMessagesRecieved);
                 break;
+            case Conversations:
+                amount.setText(""+data.getContact(i).numberOfMessages);
+                break;
         }
         return v;
     }

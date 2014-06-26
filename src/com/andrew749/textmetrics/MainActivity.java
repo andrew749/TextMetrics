@@ -3,8 +3,8 @@ package com.andrew749.textmetrics;
 import android.annotation.TargetApi;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteException;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -28,11 +28,13 @@ public class MainActivity extends FragmentActivity {
     boolean debug = false;
     private DrawerLayout drawerlauout;
     private ListView drawerlist;
+    private Bundle mData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        optionalmetrics= new String[]{getString(R.string.drawer1), getString(R.string.drawer2), getString(R.string.drawer3), getString(R.string.drawer4)};
+        mData = new Bundle();
+        optionalmetrics = new String[]{getString(R.string.drawer1), getString(R.string.drawer2), getString(R.string.drawer3), getString(R.string.drawer4)};
         setContentView(R.layout.layoutnew);
         drawerlauout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerlist = (ListView) findViewById(R.id.left_drawer);
@@ -48,11 +50,15 @@ public class MainActivity extends FragmentActivity {
 
     }
 
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+    }
 
     @Override
     public void onStart() {
         super.onStart();
-//        EasyTracker.getInstance().activityStart(this); // Add this method.
+        EasyTracker.getInstance().activityStart(this); // Add this method.
     }
 
     @Override
@@ -82,6 +88,7 @@ public class MainActivity extends FragmentActivity {
             switch (position) {
                 case 0:
                     fragment = new ConversationsFragment();
+                    fragment.setArguments(mData);
                     break;
                 case 1:
                     fragment = new SpecialFragment(information, SortingTypes.Sent);
@@ -147,6 +154,7 @@ public class MainActivity extends FragmentActivity {
                 Log.d("Thread done", "thread");
             }
             c.close();
+            deleteEmptyContacts(data);
             return data;
         }
 
@@ -155,10 +163,13 @@ public class MainActivity extends FragmentActivity {
             super.onPostExecute(data);
             progress.dismiss();
             information = data;
+            mData.putSerializable("data", data);
             Fragment fragment = new ConversationsFragment();
+            fragment.setArguments(mData);
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment).commit();
         }
 
+        //TODO increase efficiency of database queries rather than running twice
         public void populateRecievedMessages(Contact contact) {
             Uri inbox = Uri.parse("content://sms/inbox");
             Cursor c = context.getContentResolver().query(inbox, null,
@@ -176,6 +187,14 @@ public class MainActivity extends FragmentActivity {
                 }
             }
             c.close();
+        }
+
+        public void deleteEmptyContacts(Data data) {
+            for (int i = 0; i < data.contacts.size(); i++) {
+                if (data.getContact(i).numberOfMessages == 0) {
+                    data.contacts.remove(i);
+                }
+            }
         }
 
         public void populateSentMessages(Contact contact) {
@@ -199,67 +218,12 @@ public class MainActivity extends FragmentActivity {
 
         public void populateConversations(Contact contact) {
             contact.numberOfMessages = contact.numberOfMessagesSent + contact.numberOfMessagesRecieved;
-            Log.d(contact.name, "" + contact.numberOfMessages);
-        }
-
-        public void getConversations(Contact contact) {
-            Uri SMS_INBOX = Uri.parse("content://sms/conversations/");
-            Cursor c = getContentResolver()
-                    .query(SMS_INBOX, null, null, null, null);
-
-            String count, thread_id;
-
-            c.moveToFirst();
-            while (c.moveToNext()) {
-                count = c.getString(c.getColumnIndexOrThrow("msg_count"))
-                        .toString();
-                thread_id = c.getString(c.getColumnIndexOrThrow("thread_id"))
-                        .toString();
-
-                Log.d("count", count);
-                Log.d("thread", thread_id);
-                String a = contactAddress(thread_id);
-                a = addressToContact(a);
-                contact.numberOfMessages = Integer.parseInt(count);
-                c.moveToNext();
+            if (debug) {
+                Log.d(contact.name, "" + contact.numberOfMessages);
             }
-            c.close();
         }
 
-        public String contactAddress(String threadid) {
-            String address = "";
-            Uri inbox = Uri.parse("content://sms/inbox");
-            Cursor c = getContentResolver().query(inbox, null,
-                    "thread_id=" + threadid, null, null);
-            if (c.moveToFirst()) {
-                address = c.getString(c.getColumnIndexOrThrow("address"));
-                Log.d("address=", address);
-            }
-            c.close();
-            return address;
-        }
 
-        public String addressToContact(String address) {
-            String name = address;
-            Uri uri = Uri.withAppendedPath(ContactsContract.PhoneLookup.CONTENT_FILTER_URI,
-                    Uri.encode(address));
-            Cursor c = getContentResolver().query(uri,
-                    new String[]{ContactsContract.PhoneLookup.DISPLAY_NAME}, null, null, null);
-            c.moveToFirst();
-            if (c.getCount() > 0) {
-                try {
-                    if (!(c.getString(c.getColumnIndex(ContactsContract.PhoneLookup.DISPLAY_NAME))
-                            .equals(""))) {
-                        name = c.getString(c
-                                .getColumnIndex(ContactsContract.PhoneLookup.DISPLAY_NAME));
-                    }
-                } catch (SQLiteException e) {
-                }
-                Log.d("Name", name);
-            }
-            c.close();
-            return name;
-        }
     }
 
 }
