@@ -81,7 +81,7 @@ public class MainActivity extends FragmentActivity {
 
         mData = new Bundle();
 
-        optionalmetrics = new String[]{getString(R.string.drawer1), getString(R.string.drawer2), getString(R.string.drawer3), getString(R.string.drawer4)};
+        optionalmetrics = new String[]{getString(R.string.drawer1), getString(R.string.drawer2), getString(R.string.drawer3), getString(R.string.drawer4), getString(R.string.drawer5)};
         setContentView(R.layout.layoutnew);
         drawerlauout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerlist = (ListView) findViewById(R.id.left_drawer);
@@ -171,6 +171,18 @@ public class MainActivity extends FragmentActivity {
         super.onDestroy();
     }
 
+    public void handleTwitter() {
+        try {
+            Intent intent = new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("twitter://user?screen_name=andrewcod749"));
+            startActivity(intent);
+
+        } catch (Exception e) {
+            startActivity(new Intent(Intent.ACTION_VIEW,
+                    Uri.parse("https://twitter.com/#!/andrewcod749")));
+        }
+    }
+
     public static enum SortingTypes {
         Conversations, Sent, Recieved
     }
@@ -205,6 +217,9 @@ public class MainActivity extends FragmentActivity {
                     break;
                 case 3:
                     startActivity(getOpenFacebookIntent(getApplicationContext()));
+                    break;
+                case 4:
+                    handleTwitter();
                     break;
             }
 

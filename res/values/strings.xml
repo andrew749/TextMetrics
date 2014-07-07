@@ -13,5 +13,6 @@
     <string name="charttitle">Message Breakdown</string>
     <string name="draweropentext">Options</string>
     <string name="firsttimemessage">Welcome to TextMetrics! Once you are done reading this, the application will scan all of your messages and display both the quantity and breakdown per contact. You can switch statistics by pulling the drawer. You can also pan and zoom in and out on the chart.</string>
-
+    <string name="drawer5">Twitter</string>
+    <string name="twitterdrawer">Follow me on Twitter</string>
 </resources>
