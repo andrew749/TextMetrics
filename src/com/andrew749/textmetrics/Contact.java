@@ -1,40 +1,48 @@
 package com.andrew749.textmetrics;
 
-public class Contact {
-	public int numberOfMessages = 0;
-	public String name, number;
+import java.io.Serializable;
 
-	public long totaltime;
-	public int numberOfMessagesSent = 0;
-	public int numberOfMessagesRecieved = 0;
+public class Contact implements Serializable {
+    public int numberOfMessages = 0;
+    public String name, number;
 
-	public Contact(String name, String number, int numberOfMessages) {
-		this.name = name;
-		this.numberOfMessages = numberOfMessages;
-		this.number = number;
-	}
+    public long totaltime;
+    public int numberOfMessagesSent = 0;
+    public int numberOfMessagesRecieved = 0;
 
-	public Contact(String name, String number) {
-		this.name = name;
-		this.number = number;
-	}
+    public Contact(String name, String number, int numberOfMessages) {
+        this.name = name;
+        this.numberOfMessages = numberOfMessages;
+        this.number = number;
+    }
 
-	public void setTime(long time) {
-		this.totaltime = time;
-	}
+    public Contact(String name, String number) {
+        this.name = name;
+        this.number = number;
+    }
 
-	public void setNumberOfMessagesSent(int messagesSent) {
-		this.numberOfMessagesSent = messagesSent;
-	}
+    public void setTime(long time) {
+        this.totaltime = time;
+    }
 
-	public void setNumberOfMessagesReceived(int messagesReceived) {
-		this.numberOfMessagesRecieved = messagesReceived;
-	}
+    public void setNumberOfMessagesSent(int messagesSent) {
+        this.numberOfMessagesSent = messagesSent;
+    }
 
-	public void incrementMessages() {
-		numberOfMessages++;
-	}
-    public void incrementMessagesReceived(){numberOfMessagesRecieved++;}
-    public void incrementMessagesSent(){numberOfMessagesSent++;}
+    public void setNumberOfMessagesReceived(int messagesReceived) {
+        this.numberOfMessagesRecieved = messagesReceived;
+    }
+
+    public void incrementMessages() {
+        numberOfMessages++;
+    }
+
+    public void incrementMessagesReceived() {
+        numberOfMessagesRecieved++;
+    }
+
+    public void incrementMessagesSent() {
+        numberOfMessagesSent++;
+    }
 
 }

@@ -9,6 +9,7 @@
     <string name="drawer3">Messages Received</string>
     <string name="drawer4">Twitter</string>
     <string name="loadingmessage">Loading Message Data</string>
+    <string name="loadingmessagelong">Loading Message Data\n(This may take a little longer because of all the messages)</string>
     <string name="charttitle">Message Breakdown</string>
 
 </resources>

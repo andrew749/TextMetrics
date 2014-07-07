@@ -9,6 +9,8 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -21,14 +23,40 @@ import android.widget.ListView;
 
 import com.google.analytics.tracking.android.EasyTracker;
 
+import static com.andrew749.textmetrics.MainActivity.SortingTypes.Conversations;
+import static com.andrew749.textmetrics.MainActivity.SortingTypes.Recieved;
+import static com.andrew749.textmetrics.MainActivity.SortingTypes.Sent;
+
 public class MainActivity extends FragmentActivity {
     public Data information;
     String[] optionalmetrics;
     ProgressDialog progress;
-    boolean debug = false;
+    boolean debug = true;
     private DrawerLayout drawerlauout;
     private ListView drawerlist;
     private Bundle mData;
+    private SortingTypes state = Conversations;
+    private Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case 0:
+                    progress.setMessage(getResources().getString(R.string.loadingmessagelong));
+                    break;
+            }
+        }
+    };
+    private Thread runningTimer = new Thread() {
+        @Override
+        public void run() {
+            try {
+                Thread.sleep(30000);
+                handler.sendMessage(Message.obtain(handler, 0, 0, 0));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +73,7 @@ public class MainActivity extends FragmentActivity {
         progress.setIndeterminate(true);
         progress.setMessage(getString(R.string.loadingmessage));
         progress.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        progress.setCanceledOnTouchOutside(false);
         progress.show();
         task.execute();
 
@@ -52,18 +81,35 @@ public class MainActivity extends FragmentActivity {
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
+        //place the data appropriately into the fragment and recreate
+        switch (state) {
+            case Conversations:
+
+                break;
+            case Recieved:
+                break;
+            case Sent:
+                break;
+
+        }
         super.onConfigurationChanged(newConfig);
     }
 
     @Override
     public void onStart() {
         super.onStart();
+        if (debug) {
+            Log.d("TextMetrics", "Activity Started");
+        }
         EasyTracker.getInstance().activityStart(this); // Add this method.
     }
 
     @Override
     public void onStop() {
         super.onStop();
+        if (debug) {
+            Log.d("TextMetrics", "Activity Stopped");
+        }
         EasyTracker.getInstance().activityStop(this); // Add this method.
     }
 
@@ -89,12 +135,15 @@ public class MainActivity extends FragmentActivity {
                 case 0:
                     fragment = new ConversationsFragment();
                     fragment.setArguments(mData);
+                    state = Conversations;
                     break;
                 case 1:
-                    fragment = new SpecialFragment(information, SortingTypes.Sent);
+                    fragment = new SpecialFragment(information, Sent);
+                    state = Sent;
                     break;
                 case 2:
-                    fragment = new SpecialFragment(information, SortingTypes.Recieved);
+                    fragment = new SpecialFragment(information, Recieved);
+                    state = Recieved;
                     break;
             }
 
@@ -133,6 +182,7 @@ public class MainActivity extends FragmentActivity {
             if (debug == true) {
                 Log.d("Starting", "Background Thread");
             }
+            runningTimer.start();
             Cursor c = context.getContentResolver().query(contentUri, projection,
                     null, null, null);
             c.moveToFirst();
@@ -141,9 +191,12 @@ public class MainActivity extends FragmentActivity {
                 String name = c.getString(c
                         .getColumnIndex(projection[1]));
                 Contact contact = new Contact(name, number);
-                populateRecievedMessages(contact);
-                populateSentMessages(contact);
-                populateConversations(contact);
+
+                if (!(contact.number == null)) {
+                    populateRecievedMessages(contact);
+                    populateSentMessages(contact);
+                    populateConversations(contact);
+                }
                 if (debug) {
                     Log.d("Found Contact", contact.name);
                 }
@@ -155,6 +208,7 @@ public class MainActivity extends FragmentActivity {
             }
             c.close();
             deleteEmptyContacts(data);
+            runningTimer.interrupt();
             return data;
         }
 
@@ -171,6 +225,7 @@ public class MainActivity extends FragmentActivity {
 
         //TODO increase efficiency of database queries rather than running twice
         public void populateRecievedMessages(Contact contact) {
+
             Uri inbox = Uri.parse("content://sms/inbox");
             Cursor c = context.getContentResolver().query(inbox, null,
                     null, null, null);

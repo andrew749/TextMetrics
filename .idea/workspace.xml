@@ -10,433 +10,54 @@
   </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState />
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
     </option>
   </component>
   <component name="AndroidLayouts">
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.andrew749.textmetrics" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7c5b50b-f1ff-4773-ad7f-92e43a488ee9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_4_4_52.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_19_0_1.xml" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\.idea\libraries\play_services_4_0_30.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\.idea\libraries\support_v4_13_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\Conversations.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\ConversationsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\Data.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\LAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\MainActivity$DrawerItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\MainActivity$SortingTypes.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\SpecialFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\SpecialFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\getData.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\statsadapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\statsadapter$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\andrew749\textmetrics\statsadapter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\google\android\gms\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\google\android\gms\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\google\android\gms\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\google\android\gms\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\google\android\gms\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\google\android\gms\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\google\android\gms\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\classes\debug\com\google\android\gms\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\R.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\proguard.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\color\common_signin_btn_text_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\color\common_signin_btn_text_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-hdpi\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-mdpi\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xhdpi\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable-xxhdpi\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable\common_signin_btn_icon_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable\common_signin_btn_icon_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable\common_signin_btn_text_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\drawable\common_signin_btn_text_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-af\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-am\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-ar\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-be\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-bg\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-ca\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-cs\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-da\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-de\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-el\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-en-rGB\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-en-rIN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-es-rUS\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-es\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-et-rEE\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-et\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-fa\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-fi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-fr-rCA\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-fr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-hi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-hr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-hu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-hy-rAM\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-in\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-it\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-iw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-ja\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-ka-rGE\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-km-rKH\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-ko\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-lo-rLA\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-lt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-lv\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-mn-rMN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-ms-rMY\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-ms\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-nb\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-nl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-pl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-pt-rBR\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-pt-rPT\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-pt\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-ro\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-ru\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-sk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-sl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-sr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-sv\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-sw\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-th\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-tl\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-tr\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-uk\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-vi\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-zh-rCN\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-zh-rHK\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-zh-rTW\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values-zu\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values\ads_attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values\colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values\maps_attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\exploded-aar\com.google.android.gms\play-services\4.0.30\res\values\version.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\incremental\aidl\debug\dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\incremental\mergeAssets\debug\merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\incremental\mergeResources\debug\merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\libs\TextMetrics-debug.ap_" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\manifests\debug\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\color\common_signin_btn_text_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\color\common_signin_btn_text_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-hdpi\logotextmetrics.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-mdpi\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xhdpi\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_icon_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_disabled_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_disabled_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_disabled_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_disabled_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_focus_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_focus_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_normal_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_normal_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_pressed_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\common_signin_btn_text_pressed_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\ic_plusone_medium_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\ic_plusone_small_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\ic_plusone_standard_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable-xxhdpi\ic_plusone_tall_off_client.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable\common_signin_btn_icon_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable\common_signin_btn_icon_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable\common_signin_btn_text_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\drawable\common_signin_btn_text_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\layout\activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\layout\customlistview.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\layout\layoutnew.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\menu\main.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-af\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-am\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-ar\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-be\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-bg\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-ca\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-cs\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-da\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-de\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-el\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-en-rGB\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-en-rIN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-es-rUS\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-es\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-et-rEE\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-et\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-fa\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-fi\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-fr-rCA\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-fr\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-hi\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-hr\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-hu\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-hy-rAM\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-in\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-it\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-iw\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-ja\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-ka-rGE\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-km-rKH\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-ko\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-lo-rLA\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-lt\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-lv\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-mn-rMN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-ms-rMY\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-ms\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-nb\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-nl\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-pl\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-pt-rBR\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-pt-rPT\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-pt\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-ro\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-ru\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-sk\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-sl\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-sr\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-sv\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-sw720dp-land\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-sw\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-th\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-tl\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-tr\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-uk\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-v11\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-v14\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-vi\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-zh-rCN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-zh-rHK\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-zh-rTW\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values-zu\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\res\all\debug\values\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\source\buildConfig\debug\com\andrew749\textmetrics\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\source\r\debug\com\andrew749\textmetrics\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\source\r\debug\com\google\android\gms\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andrew\Dropbox\workspace\TextMetrics\build\symbols\debug\R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/achartengine_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libGoogleAnalyticsV2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_4_4_52.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_19_0_1.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/1.11/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andrew749/textmetrics/Conversations.java" afterPath="$PROJECT_DIR$/src/com/andrew749/textmetrics/Conversations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java" afterPath="$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andrew749/textmetrics/Data.java" afterPath="$PROJECT_DIR$/src/com/andrew749/textmetrics/Data.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andrew749/textmetrics/Contact.java" afterPath="$PROJECT_DIR$/src/com/andrew749/textmetrics/Contact.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TextMetrics/TextMetrics-TextMetrics.iml" afterPath="$PROJECT_DIR$/TextMetrics/TextMetrics-TextMetrics.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TextMetrics.iml" afterPath="$PROJECT_DIR$/TextMetrics.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/achartengine_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/achartengine_1_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterAuth.java" afterPath="$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterAuth.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/libGoogleAnalyticsV2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/libGoogleAnalyticsV2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andrew749/textmetrics/statsadapter.java" afterPath="$PROJECT_DIR$/src/com/andrew749/textmetrics/statsadapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -465,19 +86,28 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.918919" vertical-offset="0" max-vertical-offset="3604">
-              <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="782">
-              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-              <folding />
+            <state vertical-scroll-proportion="1.7396061" vertical-offset="0" max-vertical-offset="1875">
+              <caret line="226" column="35" selection-start-line="226" selection-start-column="35" selection-end-line="226" selection-end-column="35" />
+              <folding>
+                <element signature="e#1336#1627#0" expanded="true" />
+                <element signature="e#1515#1568#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+                <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onConfigurationChanged#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onStart#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#3337#3637#0" expanded="true" />
+                <element signature="e#3630#3631#0" expanded="true" />
+                <element signature="class#SortingTypes#0;class#MainActivity#0" expanded="false" />
+                <element signature="class#DrawerItemClickListener#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onItemClick#0;class#DrawerItemClickListener#0;class#MainActivity#0" expanded="false" />
+                <element signature="docComment;method#selectItem#0;class#DrawerItemClickListener#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#selectItem#0;class#DrawerItemClickListener#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onPostExecute#0;class#getData#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#populateRecievedMessages#0;class#getData#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#deleteEmptyContacts#0;class#getData#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#populateSentMessages#0;class#getData#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#populateConversations#0;class#getData#0;class#MainActivity#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -911,7 +541,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2801505524258" />
+        <entry key="$PROJECT_DIR$" value="2801957154000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -926,38 +556,44 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.11.2/19cc83d7dc315b672542b0943a50d8a2732d3e60/gradle-0.11.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/22.9.2/485091941d8ca5e0086e501eb3de874570960d45/common-22.9.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.11.2/21bf5abb5dde0b68283361438a02984802e21d11/builder-model-0.11.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/sdk/extras/google/m2repository/com/google/android/gms/play-services/4.4.52/play-services-4.4.52.aar" />
+                            <option value="$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar" />
+                            <option value="$MODULE_DIR$/libs/Twitter-1.76.jar" />
+                            <option value="$MODULE_DIR$/libs/libGoogleAnalyticsV2.jar" />
+                            <option value="$MODULE_DIR$/libs/achartengine-1.1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.12.1/c1e4fb0bb1517108044d1172d0fe378ab9e39af4/gradle-0.12.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/4.11/76730af417bb42da22b16e49f49e67863382b9bd/proguard-base-4.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.11/da875d4b67a8be6c770b11d894434843714ac69d/proguard-gradle-4.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.1.1/3d1d918f32709e33ba7ddb2c4e8d1c543ebe713e/httpclient-4.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/22.9.2/9f6bc2ced2720dd7dc26c6f83230f8b7990fb163/dvlib-22.9.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.1/9ba2dcdf94ce35c8a8e9bff242db0618ca932e92/httpmime-4.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/23.0.1/eb0e5c7a15bc65ce8892e69d40ef9896038fa505/common-23.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.9.2/d56ea65aed5c3bc55008b99c77ca753c0b4a7e53/layoutlib-api-22.9.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/23.0.1/b2ae27e3abc4f414d21ab22d7be037362383407b/layoutlib-api-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/23.0.1/6a79fa7c46415293769ef8ec5419d279619750be/dvlib-23.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/22.9.2/b46e25802150702ff59f84018ecd4bb857fb7147/sdklib-22.9.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/22.9.2/341600da3a96a2dea7503683c154f5196afd7a10/sdk-common-22.9.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/23.0.1/d55506f84fba861d5849a465672e645066eb03f9/sdklib-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/23.0.1/4e4a16b7a955c61b795bf515a165ac66ab888e65/sdk-common-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.12.1/b3f0defc08f7374ff2a19bf13cc86d4e1ec56e95/builder-model-0.12.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/4.0/659add6efc75a4715d738e73f07505246edf4d66/asm-4.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.2/57e560b535ceaa14fb6f15422d74594acd6c5b64/lombok-ast-0.2.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/4.0/67bd266cd17adcee486b76952ece4cc85fe248b8/asm-tree-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/22.9.2/25e7d555183767a01ea1ae397dbae5788f677b1f/lint-api-22.9.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/23.0.1/453246a460abfd437fe17bfab20bab04fff94023/lint-api-23.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/4.0/1c45d52b6f6c638db13cf3ac12adeb56b254cdd7/asm-analysis-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/22.9.2/69ad02f14121920a5c241194cd977327b241d23e/lint-checks-22.9.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/22.9.2/5498fe37b3fac2b34c9126083e545ba8cfb50a23/lint-22.9.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/4.11/76730af417bb42da22b16e49f49e67863382b9bd/proguard-base-4.11.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.11/da875d4b67a8be6c770b11d894434843714ac69d/proguard-gradle-4.11.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.9.2/69ad228d67fa774e8cd0481f689184063a4aec97/ddmlib-22.9.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/23.0.1/11481a7f2bd7cbab933e81286f38bc287fcbb673/lint-checks-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/23.0.1/e298afd15c6c20a9a2fa45ca0353657233eb1282/lint-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/23.0.1/bdb64822d5aec1c3c2d1ab60437e3ddacf4296e1/ddmlib-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.12.1/a87171dbd117b6c538da71106d3fb116ce627b0a/builder-test-api-0.12.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/23.0.1/49a31b32bc6f1f81c757be9aeaacdf0c12c3d381/manifest-merger-23.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/81241ff7078ef14f42ea2a8995fa09c096256e6b/javawriter-2.5.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.11.2/954ef0746956f64654a8b1945b4fc0ab1f82ed0b/builder-test-api-0.11.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/22.9.2/8f115cabb13effa5e5d15086ba6864e344b5c8b/manifest-merger-22.9.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.48/960dea7c9181ba0b17e8bab0c06a43f0a5f04e65/bcprov-jdk15on-1.48.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.48/28b7614b908a47844bb27e3c94b45b6893656265/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.11.2/8597409e2d828877b172e1aa917eea0d180e6641/builder-0.11.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.12.1/351adf590ab6dfee5e9760f2c6894b8002b3cb5/builder-0.12.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -969,38 +605,44 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.11.2/19cc83d7dc315b672542b0943a50d8a2732d3e60/gradle-0.11.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/22.9.2/485091941d8ca5e0086e501eb3de874570960d45/common-22.9.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.11.2/21bf5abb5dde0b68283361438a02984802e21d11/builder-model-0.11.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/sdk/extras/google/m2repository/com/google/android/gms/play-services/4.4.52/play-services-4.4.52.aar" />
+                            <option value="$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar" />
+                            <option value="$MODULE_DIR$/libs/Twitter-1.76.jar" />
+                            <option value="$MODULE_DIR$/libs/libGoogleAnalyticsV2.jar" />
+                            <option value="$MODULE_DIR$/libs/achartengine-1.1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.12.1/c1e4fb0bb1517108044d1172d0fe378ab9e39af4/gradle-0.12.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/4.11/76730af417bb42da22b16e49f49e67863382b9bd/proguard-base-4.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.11/da875d4b67a8be6c770b11d894434843714ac69d/proguard-gradle-4.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.1.1/3d1d918f32709e33ba7ddb2c4e8d1c543ebe713e/httpclient-4.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/22.9.2/9f6bc2ced2720dd7dc26c6f83230f8b7990fb163/dvlib-22.9.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.1/9ba2dcdf94ce35c8a8e9bff242db0618ca932e92/httpmime-4.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/23.0.1/eb0e5c7a15bc65ce8892e69d40ef9896038fa505/common-23.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.9.2/d56ea65aed5c3bc55008b99c77ca753c0b4a7e53/layoutlib-api-22.9.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/23.0.1/b2ae27e3abc4f414d21ab22d7be037362383407b/layoutlib-api-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/23.0.1/6a79fa7c46415293769ef8ec5419d279619750be/dvlib-23.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/22.9.2/b46e25802150702ff59f84018ecd4bb857fb7147/sdklib-22.9.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/22.9.2/341600da3a96a2dea7503683c154f5196afd7a10/sdk-common-22.9.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/23.0.1/d55506f84fba861d5849a465672e645066eb03f9/sdklib-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/23.0.1/4e4a16b7a955c61b795bf515a165ac66ab888e65/sdk-common-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.12.1/b3f0defc08f7374ff2a19bf13cc86d4e1ec56e95/builder-model-0.12.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/4.0/659add6efc75a4715d738e73f07505246edf4d66/asm-4.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.2/57e560b535ceaa14fb6f15422d74594acd6c5b64/lombok-ast-0.2.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/4.0/67bd266cd17adcee486b76952ece4cc85fe248b8/asm-tree-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/22.9.2/25e7d555183767a01ea1ae397dbae5788f677b1f/lint-api-22.9.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/23.0.1/453246a460abfd437fe17bfab20bab04fff94023/lint-api-23.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/4.0/1c45d52b6f6c638db13cf3ac12adeb56b254cdd7/asm-analysis-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/22.9.2/69ad02f14121920a5c241194cd977327b241d23e/lint-checks-22.9.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/22.9.2/5498fe37b3fac2b34c9126083e545ba8cfb50a23/lint-22.9.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/4.11/76730af417bb42da22b16e49f49e67863382b9bd/proguard-base-4.11.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.11/da875d4b67a8be6c770b11d894434843714ac69d/proguard-gradle-4.11.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.9.2/69ad228d67fa774e8cd0481f689184063a4aec97/ddmlib-22.9.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/23.0.1/11481a7f2bd7cbab933e81286f38bc287fcbb673/lint-checks-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/23.0.1/e298afd15c6c20a9a2fa45ca0353657233eb1282/lint-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/23.0.1/bdb64822d5aec1c3c2d1ab60437e3ddacf4296e1/ddmlib-23.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.12.1/a87171dbd117b6c538da71106d3fb116ce627b0a/builder-test-api-0.12.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/23.0.1/49a31b32bc6f1f81c757be9aeaacdf0c12c3d381/manifest-merger-23.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/81241ff7078ef14f42ea2a8995fa09c096256e6b/javawriter-2.5.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.11.2/954ef0746956f64654a8b1945b4fc0ab1f82ed0b/builder-test-api-0.11.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/22.9.2/8f115cabb13effa5e5d15086ba6864e344b5c8b/manifest-merger-22.9.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.48/960dea7c9181ba0b17e8bab0c06a43f0a5f04e65/bcprov-jdk15on-1.48.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.48/28b7614b908a47844bb27e3c94b45b6893656265/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.11.2/8597409e2d828877b172e1aa917eea0d180e6641/builder-0.11.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.12.1/351adf590ab6dfee5e9760f2c6894b8002b3cb5/builder-0.12.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/TextMetrics" />
@@ -1012,86 +654,86 @@
               <option name="name" value="TextMetrics" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/core-impl" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/cpp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/language-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/sonar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/ant-1.9.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/ant-launcher-1.9.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-base-services-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-base-services-groovy-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-cli-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-core-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-docs-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-launcher-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-messaging-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-native-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-open-api-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-resources-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-tooling-api-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-ui-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/gradle-wrapper-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/groovy-all-1.8.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/ant-antlr-1.9.2.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-announce-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-antlr-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-build-comparison-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-build-init-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-code-quality-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-core-impl-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-cpp-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-diagnostics-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-ear-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-ide-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-ivy-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-jacoco-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-javascript-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-jetty-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-language-base-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-language-jvm-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-maven-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-osgi-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-plugins-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-publish-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-reporting-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-scala-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-signing-1.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.11-all/7qd8qq8te5j4f5q9aaei3gh3lj/gradle-1.11/lib/plugins/gradle-sonar-1.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/cpp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/sonar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/core-impl" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/language-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-launcher-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-messaging-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-base-services-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-open-api-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-ui-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-tooling-api-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-core-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-wrapper-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-docs-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-resources-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/groovy-all-1.8.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-cli-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-native-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/gradle-base-services-groovy-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-language-jvm-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-core-impl-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-sonar-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-cpp-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-plugins-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-ide-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-signing-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-reporting-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-build-comparison-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-build-init-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-ivy-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-announce-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-publish-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-ear-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-code-quality-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-osgi-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-diagnostics-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-jetty-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-jacoco-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-antlr-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-language-base-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-maven-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-scala-1.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.12-all/2apkk7d25miauqf1pdjp1bm0uo/gradle-1.12/lib/plugins/gradle-javascript-1.12.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -1105,22 +747,24 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterAuth.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/com/andrew749/textmetrics/statsadapter.java" />
         <option value="$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/andrew749/textmetrics/Conversations.java" />
         <option value="$PROJECT_DIR$/src/com/andrew749/textmetrics/Data.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterAuth.java" />
+        <option value="$PROJECT_DIR$/src/com/andrew749/textmetrics/Contact.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1552" />
-    <option name="height" value="842" />
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1148,8 +792,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1178,11 +820,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textmetrics" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1199,9 +837,15 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1211,21 +855,96 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="04916c02094da67c" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="04916c02094da67c" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.TextMetrics">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1266,81 +985,6 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="false" name="TextMetrics" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1391,41 +1035,65 @@
       <created>1401243206785</created>
       <updated>1401243206785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Transitioned conversations fragment to the new adapter.">
+      <created>1403806054154</created>
+      <updated>1403806054154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270073" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6510949" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6510949" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22252011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62526655" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6506365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263889" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65037197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20340788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1444,7 +1112,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="newest format&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="newest format&#10;" />
+    <MESSAGE value="Transitioned conversations fragment to the new adapter." />
+    <option name="LAST_COMMIT_MESSAGE" value="Transitioned conversations fragment to the new adapter." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1452,7 +1121,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java</url>
           <line>63</line>
-          <properties class="com.andrew749.textmetrics.ConversationsFragment" method="getConversations" />
+          <properties class="com.andrew749.textmetrics.ConversationsFragment" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -1460,104 +1129,45 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2193">
-          <caret line="162" column="30" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onAttach#0;class#ConversationsFragment#0" expanded="false" />
-            <element signature="method#setupRenderer#0;class#ConversationsFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/Conversations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/statsadapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2720" max-vertical-offset="3689">
-          <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="2465">
-          <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onAttach#0;class#ConversationsFragment#0" expanded="false" />
-            <element signature="method#setupRenderer#0;class#ConversationsFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4065">
-          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2175">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onAttach#0;class#ConversationsFragment#0" expanded="false" />
-            <element signature="method#setupRenderer#0;class#ConversationsFragment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4065">
-          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="435">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="300">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2940" max-vertical-offset="4065">
-          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="570">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/SpecialFragment.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1410">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="690">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="570">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1573,18 +1183,217 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/SpecialFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5974026" vertical-offset="720" max-vertical-offset="1410">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3292683" vertical-offset="0" max-vertical-offset="410">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="570">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2692" max-vertical-offset="3689">
+          <caret line="207" column="38" selection-start-line="196" selection-start-column="52" selection-end-line="207" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="2924">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3689">
+          <caret line="196" column="52" selection-start-line="196" selection-start-column="52" selection-end-line="196" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="2924">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4080">
+          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="833">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="2924">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2363" max-vertical-offset="3689">
+          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="2924">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3689">
+          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="2924">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="3689">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="2924">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3621">
+          <caret line="169" column="83" selection-start-line="47" selection-start-column="48" selection-end-line="169" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3621">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2193">
+          <caret line="162" column="30" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/Conversations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/statsadapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2720" max-vertical-offset="3689">
+          <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="2465">
+          <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4065">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2175">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4065">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="300">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2940" max-vertical-offset="4065">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/SpecialFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1410">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/SpecialFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5974026" vertical-offset="720" max-vertical-offset="1410">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1592,23 +1401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="433">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33095238" vertical-offset="65" max-vertical-offset="833">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.01674277" vertical-offset="23" max-vertical-offset="680">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1616,7 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6636225" vertical-offset="431" max-vertical-offset="1088">
           <caret line="68" column="69" selection-start-line="68" selection-start-column="69" selection-end-line="68" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1624,10 +1415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07762557" vertical-offset="0" max-vertical-offset="657">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1635,37 +1422,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33637747" vertical-offset="0" max-vertical-offset="657">
           <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="782">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/ConversationsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1808" max-vertical-offset="2720">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onAttach#0;class#ConversationsFragment#0" expanded="false" />
-            <element signature="method#setupRenderer#0;class#ConversationsFragment#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="2063" max-vertical-offset="2720">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3501529" vertical-offset="60" max-vertical-offset="833">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28716215" vertical-offset="0" max-vertical-offset="888">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29540482" vertical-offset="0" max-vertical-offset="914">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/TwitterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26258206" vertical-offset="0" max-vertical-offset="914">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.065645516" vertical-offset="0" max-vertical-offset="914">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="11" column="119" selection-start-line="11" selection-start-column="119" selection-end-line="11" selection-end-column="119" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andrew749/textmetrics/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.918919" vertical-offset="0" max-vertical-offset="3604">
-          <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
-          <folding />
+        <state vertical-scroll-proportion="1.7396061" vertical-offset="0" max-vertical-offset="1875">
+          <caret line="226" column="35" selection-start-line="226" selection-start-column="35" selection-end-line="226" selection-end-column="35" />
+          <folding>
+            <element signature="e#1336#1627#0" expanded="true" />
+            <element signature="e#1515#1568#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onConfigurationChanged#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onStart#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#3337#3637#0" expanded="true" />
+            <element signature="e#3630#3631#0" expanded="true" />
+            <element signature="class#SortingTypes#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#DrawerItemClickListener#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onItemClick#0;class#DrawerItemClickListener#0;class#MainActivity#0" expanded="false" />
+            <element signature="docComment;method#selectItem#0;class#DrawerItemClickListener#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#selectItem#0;class#DrawerItemClickListener#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#getData#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#populateRecievedMessages#0;class#getData#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#deleteEmptyContacts#0;class#getData#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#populateSentMessages#0;class#getData#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#populateConversations#0;class#getData#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
