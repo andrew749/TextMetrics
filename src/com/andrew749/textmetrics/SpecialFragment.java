@@ -38,9 +38,13 @@ public class SpecialFragment extends Fragment {
     CategorySeries series = new CategorySeries("Contacts");
     MainActivity.SortingTypes types;
 
-    public SpecialFragment(Data data, MainActivity.SortingTypes type) {
+    /*public SpecialFragment(Data data, MainActivity.SortingTypes type) {
         results = data;
         types = type;
+    }*/
+
+    public SpecialFragment() {
+
     }
 
     @Override
@@ -67,7 +71,8 @@ public class SpecialFragment extends Fragment {
         View view = inflater.inflate(R.layout.activity_main, container, false);
         lview = (ListView) view.findViewById(R.id.listView1);
         layout = (LinearLayout) view.findViewById(R.id.chart);
-
+        types = (MainActivity.SortingTypes) getArguments().getSerializable("type");
+        results = (Data) getArguments().getSerializable("data");
         series.clear();
 
         for (int i = 0; i < results.contacts.size(); i++) {
@@ -77,6 +82,9 @@ public class SpecialFragment extends Fragment {
                     break;
                 case Recieved:
                     series.add(results.getContact(i).name, results.getContact(i).numberOfMessagesRecieved);
+                    break;
+                case Conversations:
+                    series.add(results.getContact(i).name, results.getContact(i).numberOfMessages);
                     break;
             }
         }

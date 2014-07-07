@@ -33,10 +33,9 @@ import static com.andrew749.textmetrics.MainActivity.SortingTypes.Sent;
 
 public class MainActivity extends FragmentActivity {
     final String MYPREFS = "mypreferences";
-    public Data information;
     String[] optionalmetrics;
     ProgressDialog progress;
-    boolean debug = true;
+    boolean debug = false;
     private DrawerLayout drawerlauout;
     private ListView drawerlist;
     private Bundle mData;
@@ -87,17 +86,7 @@ public class MainActivity extends FragmentActivity {
         drawerlist = (ListView) findViewById(R.id.left_drawer);
         drawerlist.setAdapter(new ArrayAdapter<String>(this, R.layout.drawerlistitem, optionalmetrics));
         drawerlist.setOnItemClickListener(new DrawerItemClickListener());
-        mDrawerToggle = new ActionBarDrawerToggle(this, drawerlauout, R.drawable.ic_drawer, R.string.draweropentext, R.string.app_name) {
-            @Override
-            public void onDrawerOpened(View drawerView) {
-                super.onDrawerOpened(drawerView);
-            }
-
-            @Override
-            public void onDrawerClosed(View drawerView) {
-                super.onDrawerClosed(drawerView);
-            }
-        };
+        mDrawerToggle = new ActionBarDrawerToggle(this, drawerlauout, R.drawable.ic_drawer, R.string.draweropentext, R.string.app_name);
         drawerlauout.setDrawerListener(mDrawerToggle);
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
@@ -166,7 +155,6 @@ public class MainActivity extends FragmentActivity {
 
     @Override
     protected void onDestroy() {
-        information = null;
         handler = null;
         super.onDestroy();
     }
@@ -197,23 +185,52 @@ public class MainActivity extends FragmentActivity {
          * @param position position 0 is conversations
          *                 1 is sent
          *                 2 is received
+         *                 3 is facebook
+         *                 4 is twitter
          */
         private void selectItem(int position) {
             Fragment fragment = new Fragment();
-            // Create a new fragment and specify the planet to show based on position
+            android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
+
             switch (position) {
                 case 0:
-                    fragment = new ConversationsFragment();
-                    fragment.setArguments(mData);
                     state = Conversations;
+
+                    fragment = new SpecialFragment();
+                    mData.putSerializable("type", state);
+                    fragment.setArguments(mData);
+                    // Insert the fragment by replacing any existing fragment
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.content_frame, fragment)
+                            .commit();
+                    setTitle(optionalmetrics[position]);
+
                     break;
                 case 1:
-                    fragment = new SpecialFragment(information, Sent);
                     state = Sent;
+
+                    fragment = new SpecialFragment();
+                    mData.putSerializable("type", state);
+                    fragment.setArguments(mData);
+                    // Insert the fragment by replacing any existing fragment
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.content_frame, fragment)
+                            .commit();
+                    setTitle(optionalmetrics[position]);
+
                     break;
                 case 2:
-                    fragment = new SpecialFragment(information, Recieved);
                     state = Recieved;
+
+                    fragment = new SpecialFragment();
+                    mData.putSerializable("type", state);
+                    fragment.setArguments(mData);
+                    // Insert the fragment by replacing any existing fragment
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.content_frame, fragment)
+                            .commit();
+                    setTitle(optionalmetrics[position]);
+
                     break;
                 case 3:
                     startActivity(getOpenFacebookIntent(getApplicationContext()));
@@ -223,15 +240,9 @@ public class MainActivity extends FragmentActivity {
                     break;
             }
 
-            // Insert the fragment by replacing any existing fragment
-            android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame, fragment)
-                    .commit();
 
             // Highlight the selected item, update the title, and close the drawer
             drawerlist.setItemChecked(position, true);
-            setTitle(optionalmetrics[position]);
             drawerlauout.closeDrawer(drawerlist);
         }
 
@@ -262,6 +273,7 @@ public class MainActivity extends FragmentActivity {
             Cursor c = context.getContentResolver().query(contentUri, projection,
                     null, null, null);
             c.moveToFirst();
+
             while (c.moveToNext()) {
                 String number = c.getString(c.getColumnIndex(projection[0]));
                 String name = c.getString(c
@@ -276,6 +288,7 @@ public class MainActivity extends FragmentActivity {
                 if (debug) {
                     Log.d("Found Contact", contact.name);
                 }
+
                 data.addContact(contact);
 
             }
@@ -283,18 +296,20 @@ public class MainActivity extends FragmentActivity {
                 Log.d("Thread done", "thread");
             }
             c.close();
-            deleteEmptyContacts(data);
             runningTimer.interrupt();
+            deleteEmptyContacts(data);
+
             return data;
         }
+
 
         @Override
         protected void onPostExecute(Data data) {
             super.onPostExecute(data);
             progress.dismiss();
-            information = data;
             mData.putSerializable("data", data);
-            Fragment fragment = new ConversationsFragment();
+            mData.putSerializable("type", state);
+            Fragment fragment = new SpecialFragment();
             fragment.setArguments(mData);
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment).commit();
         }
