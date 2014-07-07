@@ -3,6 +3,8 @@ package com.andrew749.textmetrics;
 import android.annotation.TargetApi;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.database.Cursor;
 import android.net.Uri;
@@ -12,10 +14,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.ContactsContract;
+import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -28,6 +32,7 @@ import static com.andrew749.textmetrics.MainActivity.SortingTypes.Recieved;
 import static com.andrew749.textmetrics.MainActivity.SortingTypes.Sent;
 
 public class MainActivity extends FragmentActivity {
+    final String MYPREFS = "mypreferences";
     public Data information;
     String[] optionalmetrics;
     ProgressDialog progress;
@@ -36,6 +41,7 @@ public class MainActivity extends FragmentActivity {
     private ListView drawerlist;
     private Bundle mData;
     private SortingTypes state = Conversations;
+    private ActionBarDrawerToggle mDrawerToggle;
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -58,16 +64,44 @@ public class MainActivity extends FragmentActivity {
         }
     };
 
+    public static Intent getOpenFacebookIntent(Context context) {
+
+        try {
+            context.getPackageManager().getPackageInfo("com.facebook.katana", 0);
+            return new Intent(Intent.ACTION_VIEW, Uri.parse("fb://page/260506200809325"));
+        } catch (Exception e) {
+            return new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/TextMetrics"));
+        }
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SharedPreferences prefs = getSharedPreferences(MYPREFS, 0);
+
         mData = new Bundle();
+
         optionalmetrics = new String[]{getString(R.string.drawer1), getString(R.string.drawer2), getString(R.string.drawer3), getString(R.string.drawer4)};
         setContentView(R.layout.layoutnew);
         drawerlauout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerlist = (ListView) findViewById(R.id.left_drawer);
         drawerlist.setAdapter(new ArrayAdapter<String>(this, R.layout.drawerlistitem, optionalmetrics));
         drawerlist.setOnItemClickListener(new DrawerItemClickListener());
+        mDrawerToggle = new ActionBarDrawerToggle(this, drawerlauout, R.drawable.ic_drawer, R.string.draweropentext, R.string.app_name) {
+            @Override
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+            }
+
+            @Override
+            public void onDrawerClosed(View drawerView) {
+                super.onDrawerClosed(drawerView);
+            }
+        };
+        drawerlauout.setDrawerListener(mDrawerToggle);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeButtonEnabled(true);
+
         getData task = new getData(getApplicationContext());
         progress = new ProgressDialog(this);
         progress.setIndeterminate(true);
@@ -80,8 +114,25 @@ public class MainActivity extends FragmentActivity {
     }
 
     @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        mDrawerToggle.syncState();
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (mDrawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
     public void onConfigurationChanged(Configuration newConfig) {
         //place the data appropriately into the fragment and recreate
+        mDrawerToggle.onConfigurationChanged(newConfig);
+
         switch (state) {
             case Conversations:
 
@@ -111,6 +162,13 @@ public class MainActivity extends FragmentActivity {
             Log.d("TextMetrics", "Activity Stopped");
         }
         EasyTracker.getInstance().activityStop(this); // Add this method.
+    }
+
+    @Override
+    protected void onDestroy() {
+        information = null;
+        handler = null;
+        super.onDestroy();
     }
 
     public static enum SortingTypes {
@@ -144,6 +202,9 @@ public class MainActivity extends FragmentActivity {
                 case 2:
                     fragment = new SpecialFragment(information, Recieved);
                     state = Recieved;
+                    break;
+                case 3:
+                    startActivity(getOpenFacebookIntent(getApplicationContext()));
                     break;
             }
 
